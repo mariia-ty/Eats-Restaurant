@@ -1,3 +1,5 @@
-/* font-family: 'Montserrat', sans-serif; 
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;*/
+.root {
+    --font-Montserrat:'Montserrat', sans-serif;
+    --font-Poppins:'Poppins', sans-serif;
+    --font-Roboto:'Roboto', sans-serif;
+}
