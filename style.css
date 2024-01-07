@@ -1,36 +1,43 @@
 .root {
-    --montserrat-font:'Montserrat', sans-serif;
-    --poppins-font:'Poppins', sans-serif;
-    --roboto-font:'Roboto', sans-serif;
-    --orange-color: #FA4A0C;
-    --DG-color: #252B42;
-    --grey-color: #737373;
-    --black-color: #000000;
-
+  --montserrat-font: "Montserrat", sans-serif;
+  --poppins-font: "Poppins", sans-serif;
+  --roboto-font: "Roboto", sans-serif;
+  --orange-color: #fa4a0c;
+  --DG-color: #252b42;
+  --grey-color: #737373;
+  --black-color: #000000;
+  --white-color: #FFFFFF;
 }
 
 .web-pages {
-list-style: none;
-}
-
-.pages {
-
+  list-style: none;
+  display: flex;
+  gap: 94px;
 }
 
 .link {
-    text-decoration: none;
-    color: var(--DG-color);
+  text-decoration: none;
+  color: var(--DG-color);
+gap: 94px;
+    
 }
 
 .logo {
-    width: 150px;
-    height: 65px;
+  width: 150px;
+  height: 65px;
+  margin-right: auto;
 }
+
+.page {
+    display: flex;
+    gap: 94px;
+}
+
 
 
 .meal-bg {
   max-width: 1440px;
-  height:  619px;
+  height: 619px;
   margin-left: auto;
   margin-right: auto;
   outline: 1px solid black;
@@ -40,10 +47,8 @@ list-style: none;
   background-size: cover;
 }
 
-
 .bagel-bg {
-    
-    max-width: 1440px;
+  max-width: 1440px;
   height: 516px;
   margin-left: auto;
   margin-right: auto;
