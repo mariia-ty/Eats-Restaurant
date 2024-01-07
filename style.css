@@ -2,4 +2,54 @@
     --montserrat-font:'Montserrat', sans-serif;
     --poppins-font:'Poppins', sans-serif;
     --roboto-font:'Roboto', sans-serif;
+    --orange-color: #FA4A0C;
+    --DG-color: #252B42;
+    --grey-color: #737373;
+    --black-color: #000000;
+
+}
+
+.web-pages {
+list-style: none;
+}
+
+.pages {
+
+}
+
+.link {
+    text-decoration: none;
+    color: var(--DG-color);
+}
+
+.logo {
+    width: 150px;
+    height: 65px;
+}
+
+
+.meal-bg {
+  max-width: 1440px;
+  height:  619px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid black;
+  background-image: url(/images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.bagel-bg {
+    
+    max-width: 1440px;
+  height: 516px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid black;
+  background-image: url(/images/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
