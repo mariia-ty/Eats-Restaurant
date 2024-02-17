@@ -6,34 +6,56 @@
   --DG-color: #252b42;
   --grey-color: #737373;
   --black-color: #000000;
-  --white-color: #FFFFFF;
+  --white-color: #ffffff;
+}
+
+.container {
+  width: 1440px;
+  outline: 2px solid grey;
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 41px;
 }
 
 .web-pages {
   list-style: none;
   display: flex;
   gap: 94px;
+  margin-left: auto;
+  margin-right: 165px;
+}
+
+.page {
+  font-family: var(--montserrat-font);
+  font-size: 16px;
+  color: var(--DG-color);
 }
 
 .link {
   text-decoration: none;
   color: var(--DG-color);
-gap: 94px;
-    
+  gap: 94px;
+  font-family: var(--montserrat-font);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--DG-color);
 }
 
 .logo {
+  background-image: url(./images/logo.svg);
   width: 150px;
   height: 65px;
-  margin-right: auto;
+  margin-left: 90px;
 }
 
 .page {
-    display: flex;
-    gap: 94px;
+  display: flex;
+  gap: 94px;
 }
-
-
 
 .meal-bg {
   max-width: 1440px;
